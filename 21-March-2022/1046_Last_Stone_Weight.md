@@ -70,7 +70,7 @@ public:
 
 ## **Complexity**
 
-#### Time Complexity:  **O(size_of_stones)**.
+#### Time Complexity:  **O((size_of_stones)log(size_of_stones))**.
 
 #### Space Complexity: **O(size_of_stones)**
 
