@@ -106,7 +106,7 @@ public:
 
 ## **Complexity**
 
-#### Time Complexity:  **O(rows_in_mat)**.
+#### Time Complexity:  **O((rows_in_mat)log(rows_in_mat))**.
 
 #### Space Complexity: **O(rows_in_mat)**
 
