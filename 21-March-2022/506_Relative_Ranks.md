@@ -81,7 +81,7 @@ public:
 
 ## **Complexity**
 
-#### Time Complexity:  **O(size_of_score)**.
+#### Time Complexity:  **O((size_of_score)log(size_of_score))**.
 
 #### Space Complexity: **O(size_of_score)**.
 <br>
