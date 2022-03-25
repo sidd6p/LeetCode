@@ -42,10 +42,9 @@ public:
 
 ## **Complexity**
 
-#### Time Complexity: **O(n)**, because ```pq``` will take ```O(logn)``` time to insert all element from ```nums``` and ```while``` will run for ```n``` time. 
+#### Time Complexity: **O(nlogn)**, because ```pq``` will take ```O(logn)``` time to insert all element from ```nums``` and ```while``` will run for ```n``` time and in every loop it will remove an element, but priority_queue will maintian it stracture by heafiy itself. So total complexity for ```while``` loop will be ```O(nlogn)```
 
 #### Space Complexity: **O(n)**
-
 <br>
 
  __Check out all [my](https://leetcode.com/siddp6/) recent solutions [here](https://github.com/sidd6p/LeetCode)__
